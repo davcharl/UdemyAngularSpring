@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.thumbnail{
+    height: 100px;
+}
+.product-description{
+    vertical-align: middle;
+}
+.table-max-width{
+    max-width: 90%;
+}

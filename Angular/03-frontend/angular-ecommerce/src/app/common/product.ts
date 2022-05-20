@@ -1,15 +1,22 @@
 export class Product {
     
-    sku: string;
-    name: string;
-    description: string;
-    unitPrice: number;
-    imageUrl: string;
-    active: boolean;
-    unitsInStock: number;
-    dateCreated: Date;
-    lastUpdated: Date;
 
+    
+
+    id: number = Number.NEGATIVE_INFINITY;
+    sku: string = "";
+    name: string = "";
+    description: string = "";
+    unitPrice: number = Number.NEGATIVE_INFINITY;
+    imageUrl: string = "";
+    active: boolean = false;
+    unitsInStock: number = Number.NEGATIVE_INFINITY;
+    dateCreated: Date = new Date( Date.now() );
+    lastUpdated: Date = new Date( Date.now() );
+
+    /*
+    
+    constructor();
 
     constructor(sku: string, name: string, description: string, unitPrice: number,
         imageUrl: string, active: boolean, unitsInStock: number, dateCreated: Date, lastUpdated: Date){
@@ -24,4 +31,14 @@ export class Product {
             this.dateCreated = dateCreated;
             this.lastUpdated = lastUpdated;
     }
+
+    
+    
+    
+    
+    */
+
+
+    
+    
 }
